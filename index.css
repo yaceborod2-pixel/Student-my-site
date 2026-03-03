@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    width: 480px;
+    height: 220px;
+
+    border: 1px solid purple;
+
+    padding-left: 10px;
+}
+
+.card img {
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    gap: 30px;
+
+}
